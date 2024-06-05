@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Doga/Main Menu.unity
+    guid: 60baaad26ee18114887d89a5120e7fa9
+  - enabled: 1
+    path: Assets/Doga/AlientheADV.unity
+    guid: f155cdd5b5877e24f9c201728defc13f
   m_configObjects: {}

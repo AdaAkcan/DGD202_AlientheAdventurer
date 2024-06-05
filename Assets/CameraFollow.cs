@@ -11,8 +11,8 @@ public class CameraFollow : MonoBehaviour
         // Desired position of the camera
         Vector3 desiredPosition = player.position + offset;
         // Smoothly interpolate between the camera's current position and the desired position
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+        //Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         // Update the camera's position
-        transform.position = smoothedPosition;
+        transform.position = desiredPosition;
     }
 }

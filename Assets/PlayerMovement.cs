@@ -32,12 +32,16 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity= new Vector2 (0,rb.velocity.y);
         }
         //rb.velocity = new Vector2(move * speed, rb.velocity.y);
-         rb.AddForce(Time.deltaTime * (speed-(rb.velocity.x*100)) * move * Vector2.right, ForceMode2D.Force);
+         rb.AddForce(Time.deltaTime * ((speed * move)-(rb.velocity.x*50)) * Vector2.right, ForceMode2D.Force);
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             //rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             rb.AddForce(jumpForce * Vector2.up, ForceMode2D.Impulse);
         }
+
+        if (isGrounded) {
+            rb.gravityScale = 0;
+        } else rb.gravityScale = 10;
     }
 
 }
