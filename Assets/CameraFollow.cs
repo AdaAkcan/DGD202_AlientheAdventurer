@@ -16,3 +16,4 @@ public class CameraFollow : MonoBehaviour
         transform.position = desiredPosition;
     }
 }
+//This code is generated with AI

@@ -30,3 +30,4 @@ public class Inventory : MonoBehaviour
         coinText.text = "Coins: " + coins.ToString();
     }
 }
+//This code is generated with AI

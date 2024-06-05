@@ -12,3 +12,4 @@ public class Collectible : MonoBehaviour
         }
     }
 }
+//This code is generated with AI

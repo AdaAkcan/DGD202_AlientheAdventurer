@@ -36,3 +36,4 @@ public class AudioManager : MonoBehaviour
         }
     }
 }
+//This code is generated with AI

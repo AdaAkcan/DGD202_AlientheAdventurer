@@ -18,3 +18,4 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 }
+//This code is generated with AI

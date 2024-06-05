@@ -27,3 +27,4 @@ public class ending : MonoBehaviour
         Time.timeScale = 0; // This will freeze the game
     }
 }
+//This code is mostly  generated with AI

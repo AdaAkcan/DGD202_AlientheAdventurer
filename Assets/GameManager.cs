@@ -20,3 +20,4 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 }
+  //This code is generated with AI
